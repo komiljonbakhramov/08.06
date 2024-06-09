@@ -1,0 +1,72 @@
+@use './header';
+@use "./hero";
+@use './filterSection';
+@use "./products";
+
+@import url('https: //fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button,
+select {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+i {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+    .mainContainer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainContainer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainContainer {
+        padding: 5px;
+    }
+}

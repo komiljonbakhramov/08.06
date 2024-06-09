@@ -1,0 +1,39 @@
+.sortProducts {
+    display: flex;
+    gap: 142px;
+    align-items: center;
+    color: #fff;
+    margin-top: 25px;
+
+    button,
+    select,
+    option {
+        padding: 11px 22px;
+        display: flex;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24.2px;
+        color: rgba(69, 68, 68, 1);
+        gap: 10px;
+        background-color: rgba(217, 217, 217, 1);
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+}
+
+
+
+.filters {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sort select {
+    padding: 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    background-color: transparent;
+}

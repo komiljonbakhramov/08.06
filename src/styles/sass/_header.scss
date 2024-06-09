@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    * {
+        color: rgba(69, 68, 68, 1);
+    }
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48.41px;
+}
+
+#headerNavbar ul {
+    display: flex;
+    gap: 25px;
+
+    li,
+    li a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+}
+
+
+.otherComponents {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+    label {
+        background-color: rgba(217, 217, 217, 1);
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+
+        i {
+            padding-right: 15px;
+        }
+    }
+
+    label input {
+        background-color: inherit;
+        border-radius: inherit;
+        gap: 83px;
+        padding: 8px 9px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.36px;
+        -webkit-border-radius: inherit;
+        -moz-border-radius: inherit;
+        -ms-border-radius: inherit;
+        -o-border-radius: inherit;
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 1);
+        }
+    }
+
+    .profile,
+    .cart {
+        display: flex;
+        gap: 8px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+}

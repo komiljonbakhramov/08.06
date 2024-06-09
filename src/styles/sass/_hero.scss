@@ -1,0 +1,66 @@
+.heroSection {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+.heroContent {
+    width: 35%;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.heroContent h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.57px;
+    color: white;
+}
+
+// * Assalomu aleykum ustoz random img ni bg image qivotkanida yozuvla azgina korinmi qovotti shuning uchun color ini white qip qoydim chunki kop rasmla qora kok i shunaqa ranglekan
+
+.heroContent button {
+    padding: 17px 62px;
+    gap: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.63px;
+    margin-top: 25px;
+    background-color: rgba(69, 68, 68, 1);
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.heroSection::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.heroSection:hover::after {
+    opacity: 0.7;
+}
